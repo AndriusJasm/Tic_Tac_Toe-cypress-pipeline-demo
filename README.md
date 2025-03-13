@@ -78,18 +78,9 @@ The following test cases are included in cypress/e2e/spec.cy.js:
 
 ## 🚀 CI/CD with GitHub Actions
 
-This project uses GitHub Actions to automate testing and ensure code quality before merging changes into the master branch. The GitHub Actions workflow (.github/workflows/node.js.yml) performs the following steps:
+This project uses GitHub Actions to automate testing and ensure code quality before merging changes into the master branch. The workflow runs on push and pull_request events targeting the master branch.
 
-1️⃣ Triggers:
-
--   Runs on push and pull_request events targeting the master branch.
-
-2️⃣ Environment:
-
--   Executes on Ubuntu (latest version).
--   Uses Node.js 18.x.
-
-3️⃣ Build & Test Steps:
+The GitHub Actions workflow (.github/workflows/node.js.yml) performs the following steps:
 
 -   Checks out the repository.
 -   Installs dependencies using npm ci (ensures a clean install).
