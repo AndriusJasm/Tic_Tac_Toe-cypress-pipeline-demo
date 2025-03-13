@@ -35,7 +35,7 @@ npm
 2️⃣ Clone the Repository
 
 ```
-git clone https://github.com/AndriusJawm/ Tic_Tac_Toe-cypress-pipeline-demo.git
+git clone https://github.com/AndriusJasm/Tic_Tac_Toe-cypress-pipeline-demo
 ```
 
 3️⃣ Install Dependencies
