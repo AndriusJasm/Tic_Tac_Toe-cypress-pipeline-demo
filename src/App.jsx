@@ -57,7 +57,7 @@ const App = () => {
     );
 };
 
-const calculateWinner = (board) => {
+export const calculateWinner = (board) => {
     const lines = [
         [0, 1, 2],
         [3, 4, 5],
